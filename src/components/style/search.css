@@ -1,0 +1,55 @@
+.inputsearch{
+    display: flex;
+    border: 1px solid;
+  }
+  .back{
+    margin-block: 5px;
+    padding-block: 5px;
+    border: 1px solid red;
+  }
+  .inputIcon{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    margin-right: 10px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-around;
+    
+  }
+  .inputIcon img{
+    width: 20px;
+  }
+  .inputbox{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .inputbox input{
+    outline: 0;
+    border: 0;
+    padding: 10px 5px;
+    margin-block: 5px;
+    font-size: 20px;
+    background-color: rgb(218, 216, 216);
+    color: #000000;
+    border-radius: 5px;
+  }
+  .confirm{
+    margin: 20px 10px;
+  }
+  .btn{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 5px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 20px;
+    background-color: #000;
+    cursor: pointer;
+  } 
+  .btn:hover{
+    background-color: #2f2e2e;
+  }
