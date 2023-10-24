@@ -1,0 +1,41 @@
+.loader {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#group-3 {
+    animation: swing 1.5s infinite ease-in-out;
+}
+#wheel-1, #wheel-2 {
+    width: 36px;
+    height: 36px;
+    animation: spin 1s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes swing {
+0% {
+    transform: translateY(0);
+}
+25% {
+    transform: translateY(1px);
+}
+
+60% {
+    transform: translateY(0);
+}
+100% {
+    transform: translateY(-1px);
+}
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+

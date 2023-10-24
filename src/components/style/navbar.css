@@ -1,8 +1,6 @@
 /* =============== navbar ======================= */
 .navbar{
   height: 55px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
-  background-color: #fff;
   color: #0A0A0A;
   display: flex;
   justify-content: space-between;
