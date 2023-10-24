@@ -3,6 +3,7 @@ import Ride from '../pages/ride';
 import NavBar from './navbar'
 import Search from './search';
 import vid from '../assests/Hero_video.mp4'
+import EasyRide from './easyride';
 
 const Hero = () => {
   return (
@@ -13,7 +14,8 @@ const Hero = () => {
         <NavBar />
         </div>
         <Search/>
-        <Ride/>
+        {/* <Ride/> */}
+        <EasyRide/>
     </div>
   )
 }
