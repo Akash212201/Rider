@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import { Link } from 'react-router-dom';
 import Sidebar from './sidebar';
+import logo from '../assests/logo.png';
 import './style/navbar.css';
 const NavBar =()=> {
     const links =[
@@ -31,7 +31,9 @@ const NavBar =()=> {
   return (
     <>
     <div className="navbar container">
-        <a href="/" className='logo'>Rickshaw<span>Ride</span></a>
+        <div className="logo">
+            <img src={logo} alt="" />
+        </div>
         <div className="nav-links">
             {
                 links.map(link =>(

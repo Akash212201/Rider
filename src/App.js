@@ -1,28 +1,28 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './App.css';
+import EasyRide from './components/easyride';
 import Hero from './components/hero';
-import Loading from './components/loading';
-import Ride from './pages/ride';
-import Footer from './components/footer';
 const App = () =>{
-  const [loading, setLoading] = useState(true);
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 2000); 
-  }, []);
+  // const [loading, setLoading] = useState(true);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 2000); 
+  // }, []);
   
   return (
     <>
-    {loading ? (
+    {/* {loading ? (
         <Loading />
       ) : (
         <div>
           <Hero />
-          <Ride/>
+          <EasyRide/>
           <Footer/>
         </div>
-      )}
+      )} */}
+     <Hero />
+      <EasyRide/>
     </>
   );
 }

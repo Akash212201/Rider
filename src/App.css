@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .locationbox{
   /* border: 1px solid #cd1515; */
   background-image: url("../public/1.jpg");
@@ -30,4 +33,67 @@ video{
   position: absolute;
   top: 0;
   width: 100%;
+}
+.services{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service, .onDemand, .shared{
+  width: 33.3333333%;
+  height: 100vh;
+  padding: 20px 45px;
+  position: relative;
+}
+.service{
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+.service_title{
+  font-size: 60px;
+  line-height: 1;
+}
+.service_btn{
+  padding: 8px 25px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  font-weight: 400;
+  font-size: 20px;
+  margin-block: 5px;
+  cursor: pointor;
+  background-color: #000;
+  color: #fff;
+}
+.service_btn:hover{
+  color: #000;
+  background-color: #fff;
+  outline: 0;
+}
+.onDemand{
+  background-image: url("../public/assests/1.jpg");
+  object-fit: contain;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.onDemand_title, .shared_title{
+  position: absolute;
+  bottom: 30px;
+  font-size: 40px;
+}
+.onDemand_content{
+  position: absolute;
+  bottom: 10px;
+}
+@media(max-width: 776px){
+  .services{
+    flex-direction: column;
+  }
+  .service, .onDemand, .shared{
+    width: 100%;
+    height: 40%;
+  }
 }

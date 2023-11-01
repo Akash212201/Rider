@@ -1,0 +1,491 @@
+.u-white,
+.u-white .u-h2,
+.u-white .u-h4,
+.u-white .u-h6,
+.u-white h3,
+.u-white p {
+    color: #fff;
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+img {
+    border-style: none;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+*,
+:after,
+:before {
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+h3,
+p {
+    margin: 0;
+}
+
+a {
+    touch-action: manipulation;
+}
+
+.u-h2,
+.u-h4,
+.u-h6,
+h3 {
+    margin-top: 0;
+    line-height: 1.6111111111;
+    font-family: HelveticaNowDisplay, Arial, sans-serif;
+}
+
+h3 {
+    font-size: 32px;
+    font-size: 1.7777777778rem;
+    line-height: 1.0069444444;
+}
+
+@media screen and (min-width:1024px) {
+    h3 {
+        font-size: 3.125vw;
+        line-height: 1.0311111111;
+    }
+}
+
+img {
+    max-width: 100%;
+    font-style: italic;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #000d10;
+    -moz-transition: color .5s cubic-bezier(.4, 0, .2, 1);
+    transition: color .5s cubic-bezier(.4, 0, .2, 1);
+}
+
+a:focus,
+a:hover {
+    color: #303131;
+}
+
+::selection {
+    background-color: rgba(0, 0, 0, .8);
+    color: hsla(0, 0%, 100%, .99);
+    text-shadow: none;
+}
+
+p {
+    font-size: 18px;
+    font-size: 1rem;
+    line-height: 1.0740740741;
+}
+
+@media screen and (min-width:1024px) {
+    p {
+        font-size: 1.3671875vw;
+        line-height: 1.1784126984;
+    }
+}
+
+.u-h2 {
+    font-size: 34px;
+    font-size: 1.8888888889rem;
+    line-height: 1.0424836601;
+}
+
+@media screen and (min-width:1024px) {
+    .u-h2 {
+        font-size: 3.61328125vw;
+        line-height: 1.3376576577;
+    }
+}
+
+.u-h4 {
+    font-size: 30px;
+    font-size: 1.6666666667rem;
+    line-height: 1.0203703704;
+}
+
+@media screen and (min-width:1024px) {
+    .u-h4 {
+        font-size: 2.5390625vw;
+        line-height: 1.2690598291;
+    }
+}
+
+.u-h6 {
+    font-size: 22px;
+    font-size: 1.2222222222rem;
+    line-height: 1.0252525253;
+}
+
+@media screen and (min-width:1024px) {
+    .u-h6 {
+        font-size: 1.5625vw;
+        line-height: 1.0311111111;
+    }
+}
+
+@media print {
+
+    *,
+    :after,
+    :before {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    h3,
+    p {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+* {
+    outline-color: transparent;
+    outline-style: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.u-h2,
+.u-h4,
+.u-h6,
+h3 {
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.u-h2,
+h3 {
+    letter-spacing: -.01em;
+}
+
+p {
+    line-height: 110%;
+}
+
+/*! CSS Used from: https://www.flyhyer.com/_next/static/css/0182ede2b2514b580234.css */
+.Button_button__3-u4P {
+    background: none;
+    outline: none;
+    text-decoration: none;
+    text-shadow: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    color: #fff;
+    background-color: #000d10;
+    font-size: .8888888889rem;
+    padding: .6111111111rem 1.1111111111rem .7222222222rem;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 100%;
+    -moz-transition: color .3s cubic-bezier(.4, 0, .2, 1), background-color .3s cubic-bezier(.4, 0, .2, 1), border-color .3s cubic-bezier(.4, 0, .2, 1);
+    transition: color .3s cubic-bezier(.4, 0, .2, 1), background-color .3s cubic-bezier(.4, 0, .2, 1), border-color .3s cubic-bezier(.4, 0, .2, 1);
+}
+
+.Button_button__3-u4P:active,
+.Button_button__3-u4P:focus,
+.Button_button__3-u4P:hover {
+    color: #fff;
+    background-color: #303131;
+}
+
+.Button_button__3-u4P:disabled {
+    background-color: #d5d3d4;
+    color: #8e8e95;
+}
+
+.Button_button__3-u4P:disabled:active,
+.Button_button__3-u4P:disabled:focus,
+.Button_button__3-u4P:disabled:hover {
+    background-color: #d5d3d4;
+    color: #8e8e95;
+}
+
+@media (min-width:64em) {
+    .Button_button__3-u4P {
+        font-size: 1.171875vw;
+        padding: 1.02vw 1.5vw 1.12vw;
+    }
+}
+
+@media (min-width:101.25em) {
+    .Button_button__3-u4P {
+        font-size: 1.049382716vw;
+    }
+}
+
+.Button_default__3hM4L {
+    border-radius: 55.5555555556rem;
+}
+
+.Button_color-white-border__1G0S2 {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid;
+}
+
+.Button_color-white-border__1G0S2:active,
+.Button_color-white-border__1G0S2:focus,
+.Button_color-white-border__1G0S2:hover {
+    color: #000d10;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+/*! CSS Used from: https://www.flyhyer.com/_next/static/css/7a12ff05e99e1f8e1383.css */
+@media (min-width:56.25em) {
+    .Solutions_solutions__-c8a2 {
+        display: -webkit-flex;
+        display: -moz-box;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+}
+
+.Solutions_solution__3WvpV {
+    padding: 1.6666666667rem 4.1666666667%;
+    height: 50vw;
+    min-height: 14.7222222222rem;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-flex-flow: column wrap;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-flow: column wrap;
+    -webkit-justify-content: flex-end;
+    -moz-box-pack: end;
+    justify-content: flex-end;
+}
+
+.Solutions_solution_content__1lBLQ {
+    max-width: 80%;
+    margin-top: .8333333333rem;
+}
+
+@media (min-width:56.25em) {
+    .Solutions_solution__3WvpV {
+        -webkit-flex: 0 0 33.33%;
+        -moz-box-flex: 0;
+        flex: 0 0 33.33%;
+        height: 56vw;
+        min-height: auto;
+        padding-top: 3.7109375vw;
+        padding-bottom: 4.00390625vw;
+    }
+
+    .Solutions_solution_title__3ndwP:after {
+        content: " →";
+        display: inline-block;
+        opacity: 0;
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        transform: translateX(-100%);
+        -moz-transition: opacity .3s cubic-bezier(.4, 0, .2, 1), transform .3s cubic-bezier(.4, 0, .2, 1) .1s;
+        transition: opacity .3s cubic-bezier(.4, 0, .2, 1), transform .3s cubic-bezier(.4, 0, .2, 1) .1s;
+    }
+
+    .Solutions_solution_content__1lBLQ {
+        max-width: 20.8333333333vw;
+        opacity: 0;
+        max-height: 0;
+        margin: 0;
+        -moz-transition: opacity .15s cubic-bezier(.4, 0, .2, 1), max-height .15s cubic-bezier(.4, 0, .2, 1), margin .2s cubic-bezier(.4, 0, .2, 1) .15s;
+        transition: opacity .15s cubic-bezier(.4, 0, .2, 1), max-height .15s cubic-bezier(.4, 0, .2, 1), margin .2s cubic-bezier(.4, 0, .2, 1) .15s;
+        will-change: max-height;
+    }
+
+    .Solutions_solution__3WvpV:hover .Solutions_solution_title__3ndwP:after {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        transform: translateX(0);
+        -moz-transition: opacity .3s cubic-bezier(.4, 0, .2, 1) .15s, transform .3s cubic-bezier(.4, 0, .2, 1);
+        transition: opacity .3s cubic-bezier(.4, 0, .2, 1) .15s, transform .3s cubic-bezier(.4, 0, .2, 1);
+    }
+
+    .Solutions_solution__3WvpV:hover .Solutions_solution_content__1lBLQ {
+        opacity: 1;
+        max-height: 100%;
+        margin-top: 1.5625vw;
+        -moz-transition: opacity .4s cubic-bezier(.4, 0, .2, 1) .15s, max-height .4s cubic-bezier(.4, 0, .2, 1), margin .4s cubic-bezier(.4, 0, .2, 1);
+        transition: opacity .4s cubic-bezier(.4, 0, .2, 1) .15s, max-height .4s cubic-bezier(.4, 0, .2, 1), margin .4s cubic-bezier(.4, 0, .2, 1);
+    }
+}
+
+.Solutions_services__2rKXR {
+    background-color: #151623;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-direction: row;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    flex-direction: row;
+}
+
+.Solutions_services_content__hBGF6 {
+    -webkit-flex: auto;
+    -moz-box-flex: 1;
+    flex: auto;
+    width: 100%;
+    margin-top: .8333333333rem;
+    margin-bottom: 3.6111111111rem;
+}
+
+.Solutions_services_button__1tWoC {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+@media (min-width:56.25em) {
+    .Solutions_services__2rKXR {
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        flex-direction: column;
+    }
+
+    .Solutions_services_title__1vBEV:after {
+        display: none;
+    }
+
+    .Solutions_services_content__hBGF6 {
+        margin-top: auto;
+        margin-bottom: 2.63671875vw;
+    }
+}
+
+.Solutions_onDemand__1i02D {
+    position: relative;
+    overflow: hidden;
+}
+
+.Solutions_onDemand_background__357oq {
+    z-index: -1;
+}
+
+.Solutions_onDemand_background__357oq:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background: -moz-linear-gradient(top, transparent 17.19%, rgba(0, 0, 0, .7) 100%);
+    background: linear-gradient(180deg, transparent 17.19%, rgba(0, 0, 0, .7));
+}
+
+@media (min-width:56.25em) {
+    .Solutions_onDemand_background__357oq:before {
+        background: -moz-linear-gradient(top, transparent 61.11%, rgba(0, 0, 0, .5) 100%);
+        background: linear-gradient(180deg, transparent 61.11%, rgba(0, 0, 0, .5));
+    }
+}
+
+.Solutions_perSeat__ZHawh {
+    background-color: #bc7155;
+    position: relative;
+    overflow: hidden;
+}
+
+.Solutions_perSeat_background__1VXP7 {
+    position: absolute;
+    top: -10%;
+    right: -13%;
+    width: 39.5833333333vw;
+    height: 55%;
+    -webkit-transform: scale(1.9);
+    -moz-transform: scale(1.9);
+    transform: scale(1.9);
+}
+
+@media (min-width:64em) {
+    .Solutions_perSeat_background__1VXP7 {
+        top: 0;
+        right: 0;
+        width: 27.0833333333vw;
+        height: 75%;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+    font-family: HelveticaNowDisplay;
+    src: url(https://www.flyhyer.com/fonts/HelveticaNowDisplay-Regular.woff2) format("woff2"), url(https://www.flyhyer.com/fonts/HelveticaNowDisplay-Regular.woff) format("woff");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: HelveticaNowDisplay;
+    src: url(https://www.flyhyer.com/fonts/HelveticaNowDisplay-RegIta.woff2) format("woff2"), url(https://www.flyhyer.com/fonts/HelveticaNowDisplay-RegIta.woff) format("woff");
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: HelveticaNowDisplay;
+    src: url(https://www.flyhyer.com/fonts/HelveticaNowDisplay-Light.woff2) format("woff2"), url(https://www.flyhyer.com/fonts/HelveticaNowDisplay-Light.woff) format("woff");
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: HelveticaNowDisplay;
+    src: url(https://www.flyhyer.com/fonts/HelveticaNowDisplay-Bold.woff2) format("woff2"), url(https://www.flyhyer.com/fonts/HelveticaNowDisplay-Bold.woff) format("woff");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: HelveticaNowDisplay;
+    src: url(https://www.flyhyer.com/fonts/HelveticaNowDisplay-BoldIta.woff2) format("woff2"), url(https://www.flyhyer.com/fonts/HelveticaNowDisplay-BoldIta.woff) format("woff");
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+}

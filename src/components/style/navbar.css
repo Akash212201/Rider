@@ -1,6 +1,6 @@
 /* =============== navbar ======================= */
 .navbar{
-  height: 55px;
+  min-height: 55px;
   color: #0A0A0A;
   display: flex;
   justify-content: space-between;
@@ -8,13 +8,12 @@
 }
 
 .logo{
-  font-size: 1.5em;
-  font-weight: bold;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.2);
-  color: #1D4782;
+  display: flex;
+  width: 200px;
+  padding-block: 12px;
 }
-.logo span{
-  color: #57b5f8;
+.logo img{
+  width: 100%;
 }
 .nav-links a{
   margin-left: 1em;
@@ -22,13 +21,14 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   position: relative;
+  font-size: 18px;
 }
 .nav-links a::before{
   content: '';
   display: inline-block;
   position: absolute;
-  background-color: #1D4782;
-  height: 5px;
+  background-color: #1e1e1f;
+  height: 3px;
   width: 0;
   bottom: -8px;
   border-radius: 12px;
@@ -71,5 +71,16 @@
   }
   .sidebar-btn{
     display: block;
+  }
+}
+@media(max-width: 996px){
+  .navbar{
+    border: 1px solid red;
+  }
+  .sidebar-btn{
+    border: 1px solid red;
+  }
+  .nav-links{
+    border: 1px solid red;
   }
 }

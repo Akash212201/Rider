@@ -1,22 +1,24 @@
-import React from 'react'
-
-const EasyRide = () => {
-  return (
-    <div>
-        <div>
-            <span>01</span>
-            <h1>Select Your Destination</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nemo magni hic!</p>
-            <span>02</span>
-            <h1>Reserve Your Ride</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nemo magni hic!</p>
-            <span>03</span>
-            <h1>Hit the Road</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nemo magni hic!</p>
+const EasyRide=()=>{
+    return (
+        <div className="services">
+            <div className="service">
+                <div className="service_box">
+                    <h3 className="service_title">Flexible Services</h3>
+                </div>
+                <div className="service_box">
+                <h2 className="service_content">Smart solutions for all your travel requirements</h2>
+                <button className="service_btn">All Services</button>
+                </div>
+            </div>
+            <div className="onDemand">
+                <h2 className="onDemand_title">On Demand Ride</h2>
+                <p className="onDemand_content">Book your Personal Ride on your Demand</p>
+            </div>
+            <div className="shared">
+            <h2 className="shared_title">Shared Ride</h2>
+                <p className="onDemand_content">Book your Shared Ride with convience</p>
+            </div>
         </div>
-        <div></div>
-    </div>
-  )
+    );
 }
-
-export default EasyRide
+export default EasyRide;
