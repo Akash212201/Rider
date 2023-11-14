@@ -73,14 +73,3 @@
     display: block;
   }
 }
-@media(max-width: 996px){
-  .navbar{
-    border: 1px solid red;
-  }
-  .sidebar-btn{
-    border: 1px solid red;
-  }
-  .nav-links{
-    border: 1px solid red;
-  }
-}

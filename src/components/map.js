@@ -12,11 +12,11 @@ const Map = (props) => {
         })
         console.log(map)
     })
-    // const addToMap=(map)=>{
-    //     const marker1=new mapboxgl.Marker()
-    //     .setLngLat([props.pickUp,props.destionation])
-    //     .addTo(map)
-    // }
+    const addToMap=(map)=>{
+        const marker1=new mapboxgl.Marker()
+        .setLngLat([props.pickUp,props.destionation])
+        .addTo(map)
+    }
   return (
     <div id="mymap"></div>
   )

@@ -1,6 +1,7 @@
-const EasyRide=()=>{
-    return (
-        <div className="services">
+import './services.css'
+const Services = () => {
+  return (
+    <div className="services">
             <div className="service">
                 <div className="service_box">
                     <h3 className="service_title">Flexible Services</h3>
@@ -15,10 +16,11 @@ const EasyRide=()=>{
                 <p className="onDemand_content">Book your Personal Ride on your Demand</p>
             </div>
             <div className="shared">
-            <h2 className="shared_title">Shared Ride</h2>
+            <h2 className="onDemand_title">Shared Ride</h2>
                 <p className="onDemand_content">Book your Shared Ride with convience</p>
             </div>
-        </div>
-    );
+    </div>
+  )
 }
-export default EasyRide;
+
+export default Services

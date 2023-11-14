@@ -1,0 +1,72 @@
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .service, .onDemand, .shared{
+    width: 33.3333333%;
+    height: 96vh;
+    position: relative;
+    padding: 1.5rem 45px;
+  }
+  .service{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  
+  }
+  .service_title{
+    font-size: 60px;
+    line-height: 1;
+  }
+  .service_btn{
+    padding: 8px 25px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    font-weight: 400;
+    font-size: 20px;
+    margin-block: 5px;
+    cursor: pointor;
+    background-color: #000;
+    color: #fff;
+  }
+  .service_btn:hover{
+    color: #000;
+    background-color: #fff;
+    outline: 0;
+  }
+  .onDemand{
+    /* background-image: url("../../rickshawride/public/1.jpg");
+    object-fit: contain;
+    background-repeat: no-repeat; */
+    background-color: #fff;
+    color: #000;
+  }
+  .onDemand_title{
+    position: absolute;
+    bottom: 80px;
+    font-size: 40px;
+  }
+  .onDemand_content{
+    position: absolute;
+    bottom: 50px;
+  }
+  .shared{
+    background-color: #000;
+    color: #fff;
+  }
+  @media(max-width: 776px){
+    .services{
+      flex-direction: column;
+      height: 100vh;
+    }
+    .service, .onDemand, .shared{
+      width: 100%;
+      padding: 0;
+    }
+    .service_box, .onDemand_title, .onDemand_content{
+        margin-left: 3vw;
+    }
+  }

@@ -1,0 +1,54 @@
+.service {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.service_btn {
+  padding: 8px 25px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  font-weight: 400;
+  font-size: 20px;
+  margin-block: 5px;
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+}
+
+.service_btn:hover {
+  color: #000;
+  background-color: #fff;
+  outline: 0;
+}
+
+.onDemand {
+  /* background-image: url("../../rickshawride/public/1.jpg");
+    object-fit: contain;
+    background-repeat: no-repeat; */
+  background-color: #fff;
+  color: #000;
+}
+
+.shared {
+  background-color: #000;
+  color: #fff;
+}
+
+@media(max-width: 776px) {
+  .services {
+    flex-direction: column;
+  }
+  .service,
+  .onDemand,
+  .shared {
+    width: 100%;
+  }
+
+  .service_box,
+  .onDemand_content {
+    margin-left: 3vw;
+  }
+}

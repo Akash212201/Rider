@@ -1,0 +1,61 @@
+.easy {
+  padding: 3vw 8vw;
+  background-color: rgb(248, 247, 241);
+}
+
+.easy_content {
+  margin-bottom: 3vw;
+  line-height: 1.2;
+}
+
+.easy_content h2 {
+  font-size: 35px;
+  margin-block: 5px;
+}
+.easy_title {
+  font-size: 35px;
+}
+.easy_content span {
+  color: gray;
+  font-size: 20px;
+}
+
+
+.easy_btn {
+  padding: 6px 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  outline: 0;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #000;
+  transition: 0.3s;
+}
+
+.easy_btn:hover {
+  background-color: #000;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+@media(max-width: 767px) {
+  .easy {
+    padding: 5vw;
+  }
+
+  .easy_content_mbox {
+    flex-direction: column;
+  }
+  .easy_content h2 {
+    margin-block: 0px;
+  }
+
+  .easy_content {
+    margin-bottom: 6vw;
+  }
+
+  .easy_title {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+}
