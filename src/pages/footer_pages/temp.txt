@@ -1,0 +1,12 @@
+const items32=[
+    {title: "RickshawRide for Business is provided as an add-on feature to facilitate corporate billing for the Authorised Users’ use of RickshawRide ’s Services in the course of work."},
+    {title: "When an organisation (“<strong>Client</strong>”) chooses to utilise RickshawRide for Business, the Authorised User is given the option of tagging his/her rides or other transactions to the Client or to tag it as a personal ride. An Authorised User is referred to in the RickshawRide Privacy Policy as a passenger."},
+    {title: "As part of this feature, RickshawRide will disclose detailed trip and booking information that Authorised Users have tagged as being for business purposes to the Client. Apart from this, RickshawRide does not disclose other Personal Data of its Authorised Users to the Client."},
+    {title: "Alternatively, an individual user may choose to set up a business profile within the App to facilitate the tagging of business-related rides and to generate consolidated trip reports to facilitate the submission of claims from his or her employer. When used in this mode, the claims process is user-driven, and the user’s employer need not be a Client."},
+];
+ 
+                        
+
+                        
+                        
+                        

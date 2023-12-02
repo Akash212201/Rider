@@ -3,23 +3,54 @@
 @tailwind utilities;
 
 .containerr{
-  padding-inline: 10vw;
+  padding-inline: 6vw;
 }
 a{
   text-decoration: none;
 }
+
+::-webkit-scrollbar {
+  width: 8px;}
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #000; 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00000091; 
+  }
+
+
 /* =================Mobile Search */
 
-video{
-  width: 100%;
-  height: 100%;
+.formtemplate{
+  box-shadow: 0 3px 10px 1px rgba(0, 0, 0, 0.10);
+  background-color: #fff;
 }
 .Lsearch img{
   width: 20px;
   height: 20px;
 }
+.H{
+  height: 100vh;
+  background-image: url('../public/1.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+.HH{
+  margin-top: 60px;
+  background-color: #F2F2F2;
+}
+
 @media(max-width:776px){
   .kk{
     flex-direction: column;
+  }
+  .HH button{
+    width: 100%;
   }
 }

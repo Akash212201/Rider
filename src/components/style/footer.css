@@ -2,8 +2,6 @@
 svg:not(:root) {
     overflow: hidden;
 }
-
-
 p,
 ul {
     margin: 0;

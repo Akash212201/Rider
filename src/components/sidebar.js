@@ -1,15 +1,18 @@
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom'
 import './style/sidebar.css';
 const Sidebar =({links,hideSidebar}) =>{
   return (
-    <div className='sidebar'>
+    <div className='sidebar pt-[12vw]'>
         {
             links.map(link =>( 
-              <a href={link.path} className="sidebarLinks" onClick={hideSidebar} key={link.name}>
+              <Link to={link.path} className="sidebarLinks" onClick={hideSidebar} key={link.name}>
                 {link.name}
-              </a>
-            ))
+              </Link>
+          ))
         }
+        <div className='ml-5'>
+          <Link to="/login"><button className="nav-btn">Login</button></Link>
+        </div>
     </div>
   )
 }

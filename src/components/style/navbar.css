@@ -1,27 +1,36 @@
 /* =============== navbar ======================= */
 .navbar{
-  min-height: 55px;
-  color: #0A0A0A;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #000;
+  position: absolute;
+  z-index: 10;
 }
-
 .logo{
-  display: flex;
-  width: 200px;
+  width: 15%;
   padding-block: 12px;
 }
 .logo img{
   width: 100%;
 }
+.nav-linkk{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+}
+.nav-links{
+  width: 70%;
+  padding-inline: 12vw;
+}
 .nav-links a{
   margin-left: 1em;
-  color: #575757;
+  color: #000;
   text-transform: uppercase;
   letter-spacing: 1px;
   position: relative;
-  font-size: 18px;
+  font-size: 20px;
 }
 .nav-links a::before{
   content: '';
@@ -47,9 +56,10 @@
 .bar{
   height: 6px;
   width: 100%;
-  background-color: #575757;
+  background-color: #000;
   position: absolute;
   cursor: pointer;
+  border-radius: 10px;
 }
 .bar:nth-child(1){
   top: 0;
@@ -65,9 +75,23 @@
 .sidebar-btn .active{
   height: 40px;
 }
+.nav-btn{
+  background-color: black;
+  color: white;
+  padding: 10px 45px;
+  border-radius: 24px;
+  transition: 0.5s ease;
+}
+.nav-btn:hover {
+  background-color: #1b1b1b;
+  transform: scale(1.1);
+}
 @media(max-width:776px){
-  .nav-links{
+  .nav-linkk{
     display: none;
+  }
+  .logo{
+    width: 40%;
   }
   .sidebar-btn{
     display: block;

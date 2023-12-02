@@ -19,7 +19,7 @@ const EasyStep = () => {
         },
     ];
   return (
-    <div className='easy'>
+    <div className="easy bg-black text-white">
         <h3 className="easy_title text-center text-4xl">Book Your Ride in 3 Easy Steps</h3>
         <div className="easy_content_mbox flex">
             <div className="easy_content_box lg:w-1/2 md:w-full">

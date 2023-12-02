@@ -4,35 +4,34 @@ const Tnc = () => {
   return (
     <div className="p-8">
         <h1 className="text-6xl font-bold my-8">Terms & Conditions</h1>
-This RickshawRide® Aviation B.V Terms and Conditions govern access and usage of our websites, mobile apps and other services for the facilitation of Aircraft charter.
+<p>This RickshawRide® Terms and Conditions govern access and usage of our websites, mobile apps and other services for the facilitation of rickshaw.
+</p>
+<p>This Terms and Conditions works as an agreement between the organization RickshawRide® (“we”,” RickshawRide®”, “our” or “us”), an India-origin company, and you (“client”, ”user”, “Customer” or “Member”).</p>
 
-This Terms and Conditions works as an agreement between the charter organization RickshawRide® Aviation B.V (“we”,” RickshawRide®”, “our” or “us”), a Dutch-registered company in the Chamber of Commerce under number 80195520, registered at Torenallee 20, 5617 BC Eindhoven, the Netherlands and VAT number NL861584594B01, and you (“client”, ”user”, “Customer” or “Member”).
+<p>RickshawRide® is not a direct rickshaw service. All rickshaws to which RickshawRide® has access and are offered to users are owned and operated by a properly licensed third party, compliant with rules outlined by the Indian government.</p>
 
-RickshawRide® is not a direct air carrier. All Flights to which RickshawRide® has access and are offered to users are owned and operated by a properly licensed third party air carrier, compliant with rules outlined by the European Union Aviation Safety Agency (or other appropriate authority under foreign law). 
-This Terms and Conditions do not constitute a contract for carriage by air. Contracts for carriage will be concluded between users and Aircraft operators and will be subject to operators' Terms and Conditions of Carriage. RickshawRide® Aviation B.V is not a contracting or common Carrier.
-
-To the fullest extent permitted by law, RickshawRide® Aviation B.V does not assume any liability whatsoever concerning the use of RickshawRide®`s platform, the performance of an Itinerary or any related operation of Aircraft.
+<p>To the fullest extent permitted by law, RickshawRide® does not assume any liability whatsoever concerning the use of RickshawRide®`s platform, the performance of an Itinerary or any related operation of Rickshaw.</p>
 
 <h1 className="text-6xl font-bold my-8">1- DEFINITIONS AND INTERPRETATION</h1>
 In these Terms and Conditions unless the context otherwise requires:
 
 "Agreement" means these Terms and Conditions, the Charter Contract and any Special Conditions.
 
-“Aircraft” means any aircraft (including helicopters) operated by an Operator for the performance of a Flight Itinerary.
-“Booking Confirmation” means the confirmation (electronic, e-mail or via message apps) provided by RickshawRide to a Customer confirming the Flight and including the Itinerary and the Aircraft booked through the RickshawRide Platforms.
+“Rickshaw” means any Rickshaw (including helicopters) operated by an Operator for the performance of a Flight Itinerary.
+“Booking Confirmation” means the confirmation (electronic, e-mail or via message apps) provided by RickshawRide to a Customer confirming the Flight and including the Itinerary and the Rickshaw booked through the RickshawRide Platforms.
 “Charter Contract”  means these Terms and Conditions.
 
-“Charter Flight” means the Flights in which the Customer reserves the entire Aircraft for flying.
+“Personal Ride” means the ride in which the Customer reserves the rickshaw for entire journey.
 
 “Conditions of Carriage” and “Operator`s Terms” means the Operator’s general conditions of carriage for passengers and baggage.
 
 “Customer” : RickshawRide`s users and members (which shall include its representative(s) as applicable) making Flight inquiring,  Flight booking or/and booking a seat using RickshawRide Platforms.
 
-“Charter Price”  means the total amount set out in RickshawRide`s invoice(s) issued in respect of the charter of an Aircraft for the performance of the Itinerary including RickshawRide`s fee. Unless otherwise confirmed in writing by RickshawRide the Charter Price shall not include (a) catering, (b) additional services (including any ground transport and helicopter transfers), (c) any increase in costs after the date of the Booking Confirmation, including security costs, aviation insurance premiums, fuel, air Passenger duty, airport charges or similar costs relating to the operation of the Aircraft or any part of the Itinerary, and (d) de-icing, weather-related or hangarage costs, airfield fire category upgrades, access to VIP lounges and terminals, fuel stops or out of normal hours airport charges.
+“Charter Price”  means the total amount set out in RickshawRide`s invoice(s) issued in respect of the charter of an Rickshaw for the performance of the Itinerary including RickshawRide`s fee. Unless otherwise confirmed in writing by RickshawRide the Charter Price shall not include (a) catering, (b) additional services (including any ground transport and helicopter transfers), (c) any increase in costs after the date of the Booking Confirmation, including security costs, aviation insurance premiums, fuel, air Passenger duty, airport charges or similar costs relating to the operation of the Rickshaw or any part of the Itinerary, and (d) de-icing, weather-related or hangarage costs, airfield fire category upgrades, access to VIP lounges and terminals, fuel stops or out of normal hours airport charges.
 
 "Activation Date" means the day when RickshawRide  decides if a shared flight in pre-booking state will be confirmed.
 
-"Empty Leg Charter" means a Customer`s charter of an Aircraft for an Itinerary that is wholly contingent upon the completion of a separate charter Flight.
+"Empty Leg Charter" means a Customer`s charter of an Rickshaw for an Itinerary that is wholly contingent upon the completion of a separate charter Flight.
 
 "Flight Briefing" means the Flight or series of Flights booked via RickshawRide and shall include places of departure, places of destination, any stopping points and any departure and arrival times.
 
@@ -52,16 +51,16 @@ In these Terms and Conditions unless the context otherwise requires:
 
 "Members"  those persons who subscribe to use the services of as are made available through RickshawRide.com or through any mobile application made available by RickshawRide. It also includes subscriptions made via email, message apps or phone. A person is considered a member during the entire period in which his/her account is active in RickshawRide Platform.
 
-"Operator"  means the Aircraft Operator whose quotation for provision of a Flight to the Customer has been accepted by the Customer in accordance with these Terms and Conditions.  The Operator is the actual operator of an Aircraft for the Itinerary as specified in the Booking Confirmation.
+"Operator"  means the rickshaw drivers whose quotation for provision of a Flight to the Customer has been accepted by the Customer in accordance with these Terms and Conditions.  The Operator is the actual operator of an Rickshaw for the Itinerary as specified in the Booking Confirmation.
 
-"Passenger"  means any person other than cabin or Flight crew travelling on an Aircraft booked by a Customer via RickshawRide Platform.
+"Passenger"  means any person other than cabin or Flight crew travelling on an Rickshaw booked by a Customer via RickshawRide Platform.
 
 "Parties"  means, as the context may require, RickshawRide, Customers and Passengers.
 
 "Recurring clients"  means customers that book a Charter Flight or a seat on a Shared Flight with RickshawRide two or more times on a period of 12 months.
 
-"Shared Flight"  means a Flight in which Customers book a seat on the Aircraft via RickshawRide, instead of the entire Aircraft.
-"Shared Charter"  means a Flight in which Customers book an entire Aircraft via RickshawRide, and allow the sales of unused seats to others clients.
+"Shared Flight"  means a Flight in which Customers book a seat on the Rickshaw via RickshawRide, instead of the entire Rickshaw.
+"Shared Charter"  means a Flight in which Customers book an entire Rickshaw via RickshawRide, and allow the sales of unused seats to others clients.
 
 "Special Conditions"  means those variations to this Terms and Conditions upon which the Operator will perform the Flight for the Customer and which, in the event of inconsistency with these Terms and Conditions, take precedence as between the Parties.
 
@@ -73,9 +72,9 @@ Only registered Customers may book Flights through the RickshawRide Platform. Th
 
 2.1 Customers, confirm, acknowledge and agree that:
 
-A- In making services available through the RickshawRide Platform, RickshawRide acts as solely as the agent for the Customer and the intermediary between Customer and Operators in arranging Aircraft charters.
+A- In making services available through the RickshawRide Platform, RickshawRide acts as solely as the agent for the Customer and the intermediary between Customer and Operators in arranging Rickshaw charters.
 
-B- RickshawRide does not and will not operate as an air carrier and it does not own, operate or maintain Aircraft.
+B- RickshawRide does not and will not operate as an air carrier and it does not own, operate or maintain Rickshaw.
 
 C- RickshawRide is not a contracting carrier for the purposes of the Montreal Convention 1999, nor is it a common carrier.
 
@@ -89,23 +88,23 @@ G- A third party may not access the RickshawRide Platform or make bookings on be
 
 H- Only valid Customers may use the RickshawRide Platform. RickshawRide reserves the sole right to verify the trustworthiness of all users registered in the RickshawRide Platform at any time while the user has his/her account registered and activate in RickshawRide Platform. In case the trustworthiness of a user cannot be verified (such as – not limited to - users using fake e-mails or fake phone number or identity theft)  RickshawRide may, at any time and without notice, suspend the member from using RickshawRide Platform as well block the user for an indefinite time for using RickshawRide Platform and any of its services.
 
-<h1 className="text-6xl font-bold my-8">3 – AIRCRAFT CHARTER AND CONFIRMATION</h1>
-The Operator shall make available to the Customer the Aircraft as specified in the Flight Briefing and the Customer shall take the Aircraft on charter from the Operator upon the Terms and Conditions of this agreement and the Operator`s Terms (including any Special Conditions which have been notified to the Customer by the Operator during the RickshawRide Quotation process).
+<h1 className="text-6xl font-bold my-8">3 – Rickshaw CHARTER AND CONFIRMATION</h1>
+The Operator shall make available to the Customer the Rickshaw as specified in the Flight Briefing and the Customer shall take the Rickshaw on charter from the Operator upon the Terms and Conditions of this agreement and the Operator`s Terms (including any Special Conditions which have been notified to the Customer by the Operator during the RickshawRide Quotation process).
 
-3.1  A Customer may use the RickshawRide Platform to (a) submit an Aircraft charter request for an on-demand charter, or (b) express interest in a group charter, (c) inquire and request about membership enrolment for charter services,  (d) express interest in an Empty Leg Charter. RickshawRide shall use its reasonable endeavours to offer a Charter Price accordingly.
+3.1  A Customer may use the RickshawRide Platform to (a) submit an Rickshaw charter request for an on-demand charter, or (b) express interest in a group charter, (c) inquire and request about membership enrolment for charter services,  (d) express interest in an Empty Leg Charter. RickshawRide shall use its reasonable endeavours to offer a Charter Price accordingly.
 
-3.2 Upon receiving a charter request RickshawRide will present a quote to the Customer with a price for the Aircraft available to perform the Itinerary. The following terms apply to the RickshawRide quote:
+3.2 Upon receiving a charter request RickshawRide will present a quote to the Customer with a price for the Rickshaw available to perform the Itinerary. The following terms apply to the RickshawRide quote:
 
 No commercial obligation rises from a quote.
-Quote prices and Aircraft are subjected to Aircraft availability.
-Pictures used on the quote are for illustration propose. The picture of real Aircraft assigned to perform the Flight is presented via the Flight Briefing after the Flight is confirmed.
+Quote prices and Rickshaw are subjected to Rickshaw availability.
+Pictures used on the quote are for illustration propose. The picture of real Rickshaw assigned to perform the Flight is presented via the Flight Briefing after the Flight is confirmed.
 Quotations are valid for a limited time, as specified in the quotation file. Once the quotation validity expires RickshawRide reserve the right to update the price.
 Until the booking is confirmed prices are subjected to change.
  3.3 A Customer acceptance of the charter price as well as these Terms and Conditions are deemed to occur upon the receipt by RickshawRide of :
 
 100% (one hundred per cent) of the Charter price where the Itinerary commences within 30 days.
 40% (forty per cent) of the Charter price (or any such deposit that might be required from the operator (whichever is greater) where the Itinerary commences more than 30 days of the request.
-3.4 Subject to the continued availability of the Aircraft, upon acceptance of the Charter Price, RickshawRide shall issue the Customer with a Booking Confirmation.
+3.4 Subject to the continued availability of the Rickshaw, upon acceptance of the Charter Price, RickshawRide shall issue the Customer with a Booking Confirmation.
 
 3.5 The balance of the total Charter Price is payable no later than 30 (thirty) days before the commencement of the Itinerary. Should the balance not be received within that timeframe RickshawRide shall (in its absolute discretion) be entitled to cancel the Itinerary and refund the deposit received less (a) a fee of 20% (twenty per cent) of the total Charter Price and (b) any cancellation fees due to the Operator under the Operator's Terms.
 
@@ -171,28 +170,28 @@ If part of the Itinerary is performed and the cancellation pertains to the remai
 
 6.7 Customers shall at all times ensure that RickshawRide has been provided with their updated contact details, including but not limited to telephone numbers (landline and mobile) and a monitored email address. RickshawRide  shall have no liability whatsoever for any losses sustained by a Customer due to RickshawRide`s inability to contact them using their disclosed contact details.
 
-6.8 The execution of the Itinerary depends on Flight operability. Events such as (but not limited to)  actual weather conditions, airport opening hours, air traffic control, slots, Aircraft defect, overflight and landing permissions might interfere with the operation of the Flight. In case any of the mentioned circumstances force the Itinerary to be cancelled or the Aircraft be diverted to an alternative airport, be forced to return to base or suffer a technical failure, RickshawRide shall use its reasonable endeavours to provide assistance in sourcing alternative means of transport for the completion of the Itinerary, whether from the original Operator or an alternative Operator/transport provider. In arranging any such alternative transport with an alternative Operator/transport provider, RickshawRide act solely as the Customer's broker, with such transport being subject to the Terms and Conditions of the relevant Operator/transport provider. Unless otherwise agreed by RickshawRide, the cost of any such alternative transport shall be for the account of the Customer named in the original Booking Confirmation.
+6.8 The execution of the Itinerary depends on Flight operability. Events such as (but not limited to)  actual weather conditions, airport opening hours, air traffic control, slots, Rickshaw defect, overflight and landing permissions might interfere with the operation of the Flight. In case any of the mentioned circumstances force the Itinerary to be cancelled or the Rickshaw be diverted to an alternative airport, be forced to return to base or suffer a technical failure, RickshawRide shall use its reasonable endeavours to provide assistance in sourcing alternative means of transport for the completion of the Itinerary, whether from the original Operator or an alternative Operator/transport provider. In arranging any such alternative transport with an alternative Operator/transport provider, RickshawRide act solely as the Customer's broker, with such transport being subject to the Terms and Conditions of the relevant Operator/transport provider. Unless otherwise agreed by RickshawRide, the cost of any such alternative transport shall be for the account of the Customer named in the original Booking Confirmation.
 
 A – In case of delays resulting from weather, RickshawRide shall inform the Customer of the potential new departure time and date for the safe performance of the Itinerary.
 
-B – In the event of unforeseeable Maintenance ("AOG"), the Charter Operator will try to find a solution internally and send another aircraft to the fleet as a replacement. However, should no other aircraft be available or economically feasible to operate an AOG replacement, the Charter Operator will do its best to organise a sub-charter aircraft from a third-party operator from the open market. In case the substitution involves additional cost, such additional cost shall be notified to the Client, who shall be entitled to either accept the additional cost or decline the offer of alternative carriage.
+B – In the event of unforeseeable Maintenance ("AOG"), the Charter Operator will try to find a solution internally and send another Rickshaw to the fleet as a replacement. However, should no other Rickshaw be available or economically feasible to operate an AOG replacement, the Charter Operator will do its best to organise a sub-charter Rickshaw from a third-party operator from the open market. In case the substitution involves additional cost, such additional cost shall be notified to the Client, who shall be entitled to either accept the additional cost or decline the offer of alternative carriage.
 
 C – In case of service disruption (such as but not limited to adverse weather conditions, change or cancellation of slots, traffic control disruption, airport operational time restrictions) that incur any part of the itinerary not being able to be executed as described or on time, the Charter Operator will do its best to organise an alternative carriage to deliver the Client to the final destination. In case the substitution involves additional cost, such additional cost shall be notified to the Client, who shall be entitled to either accept the extra cost or decline the offer of alternative carriage. In case the Client does not accept an alternative carriage that delivers the Client to the final destination and does not involve additional cost to the Client, the Charter Operator is entitled to consider the segment as executed, and no refund rights arise to the Client.
 
-6.9 Customer acknowledges and agrees that the captain of the relevant Aircraft is entitled to take all necessary safety precautions at any time, including but not limited to the full authority to make decisions regarding payload (Passengers, luggage and cargo), planned route, Flight timings, the sufficiency of weather conditions for safe Flight and ultimate landing destination.
+6.9 Customer acknowledges and agrees that the captain of the relevant Rickshaw is entitled to take all necessary safety precautions at any time, including but not limited to the full authority to make decisions regarding payload (Passengers, luggage and cargo), planned route, Flight timings, the sufficiency of weather conditions for safe Flight and ultimate landing destination.
+<h1 className="text-6xl font-bold my-8">7 – EXCLUSION OF LIABILITY/INDEMNITY</h1>
 
-7 – EXCLUSION OF LIABILITY/INDEMNITY
 7.1 Save as otherwise provided in these Terms and Conditions, and to the fullest extent permitted by law, RickshawRide and its investors, shareholders, officers, directors, affiliates, agents, attorneys and third-party service providers and each of their respective employees ( together “indemnitees” shall have no liability whatsoever for any injury, death, loss, claim, damage, accident, delay or any special, exemplary, punitive, incidental or consequential damages of any kind, whether based in contract, tort or otherwise, in any arising out or in connection with the charterer use of or any air travel or other services booked through RickshawRide including, but not limited to:
 
 Any errors or delays in response to the Customer’s request.
-Aircraft and equipment breakdown, or any hardware or software malfunction.
+Rickshaw and equipment breakdown, or any hardware or software malfunction.
 The performance, partial performance, non-performance or delayed performance of (a) the Itinerary by an Operator or any alternative transport arranged by RickshawRide, including any accident or incident during the course of carriage.
 Any act, neglect, default, omission or negligence of the carrier, any alternative transport provider or any of their respective employees or agents.
 7.2 The Customer expressly agrees that their sole recourse of claims arising out of the performance of the Itinerary or any part thereof (including delayed, partial or non-performance) shall be against the Operator.
 
 7.3  If, notwithstanding the provision of this clause 7.1, the indemnitees have any liability to a Customer, such liability shall (to the extent permitted by law) not exceed a sum equivalent to the Charter Price.
 
-7.4 RickshawRide shall be under no liability to the Customer for any failure by its Operator to perform its obligations under an Itinerary arising from force majeure, labour disputes, pandemic or strikes of any kind (including those of Operator`s personnel), lock-outs, technical or weather reasons, or any other cause beyond the control of the Operator including accidents to or failure of the Aircraft or any Aircraft part.
+7.4 RickshawRide shall be under no liability to the Customer for any failure by its Operator to perform its obligations under an Itinerary arising from force majeure, labour disputes, pandemic or strikes of any kind (including those of Operator`s personnel), lock-outs, technical or weather reasons, or any other cause beyond the control of the Operator including accidents to or failure of the Rickshaw or any Rickshaw part.
 
 7.5   The indemnities contained in these Terms and Conditions shall survive the termination of any Itinerary or Agreement.
 
@@ -254,7 +253,7 @@ B – If not different stated on the booking page, flights are paid in Euros.
 
 A –  Luggage Policy is announced per Flight. When not stated, the standard luggage allowance is 20 kg plus one small piece of handbag luggage. Additional baggage requires Operator’s pre-approval.
 
-B –  Overhead storage is not available, and on-aircraft storage is limited. If hand luggage cannot be properly stored, or is of excessive weight, or is considered unsafe for any reason, it will be checked on the cargo hold.
+B –  Overhead storage is not available, and on-Rickshaw storage is limited. If hand luggage cannot be properly stored, or is of excessive weight, or is considered unsafe for any reason, it will be checked on the cargo hold.
 
 C – RickshawRide nor its Operators assume liability for lost, damaged, or delayed luggage.
 
@@ -278,12 +277,12 @@ D – If a passenger does not board the departing flight booked on his/her itine
 
 9.7 Flight Types
 
-A – Activated: The flight is confirmed and the aircraft is assigned to perform the flight.
+A – Activated: The flight is confirmed and the Rickshaw is assigned to perform the flight.
 
-B – Pending Activation: The flight is not confirmed. The flight is pending aircraft being assigned and minimum demand of passengers to be activated.
+B – Pending Activation: The flight is not confirmed. The flight is pending Rickshaw being assigned and minimum demand of passengers to be activated.
 
 If a Proposed flight has not been activated before 7 days of the departure time, passengers will be invited to choose another flight, with no change fee (only price difference apply). Passengers can also choose to receive a full refund on their deposit. 
-Factors that impact activation include but are not limited to aircraft availability, owner approvals and passenger demand.
+Factors that impact activation include but are not limited to Rickshaw availability, owner approvals and passenger demand.
 RickshawRide shall not be held liable or responsible for any losses incurred should a flight pending activation is not activated.
 C – Pre-booking process: For Pending Activation flights, RickshawRide works with a pre-booking process.
 
@@ -292,11 +291,11 @@ Clients that reserved a seat while the flight is on pre-booking must pay the rem
 Deposits are fully refundable in case a flight is not activated.
 Deposits are non-refundable in case the passenger does not pay the remaining ticket price on time or/and the passenger decides not to proceed with the trip.
 Flights pending activation and accepting pre-booking are not confirmed flights. Therefore RickshawRide is not liable or responsible for any losses incurred in case the potential flight is not confirmed.
-D –  RickshawRide may fulfil the flights on another aircraft model that is equivalent or greater than the one informed at the time of booking.
+D –  RickshawRide may fulfil the flights on another Rickshaw model that is equivalent or greater than the one informed at the time of booking.
 
  9.8 Refusal to Transport
 
-Operators may refuse to transport or remove a Passenger from an Aircraft for any reason, including, but not limited to:
+Operators may refuse to transport or remove a Passenger from an Rickshaw for any reason, including, but not limited to:
 
 Failure to comply with this Terms and Conditions or Operator’s instruction in general.
 Appearance by the Passenger that he/she is intoxicated or under the influence of alcohol drugs.

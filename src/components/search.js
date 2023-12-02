@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Uber from '../assests/uber.png';
+import Circle from '../assests/circle.png';
 import LocationResult from './locationResult';
 const Search = () => {
   const [dis,setDis]=useState(false);
@@ -8,7 +9,7 @@ const Search = () => {
       <div className="Lsearch p-2 md:p-6 border-[2px] rounded-xl">
       <p className="text-[30px] font-bold">Choose a Ride</p>
       <div className="bg-slate-200 p-3 rounded-lg mt-3 flex item-center gap-4">
-        <img src={Uber} alt="" />
+        <img src={Circle} alt="" />
         <input type="text" className="bg-transparent w-full outline-none" placeholder="Enter Pickup Location" />
       </div>
       <div className="bg-slate-200 p-3 rounded-lg mt-3 flex item-center gap-4">
