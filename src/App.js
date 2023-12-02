@@ -9,6 +9,8 @@ import Operator from './pages/operator';
 import About from './pages/about';
 import Contact from './pages/contact';
 import Footer from './components/footer';
+import PPolicy from './pages/footer_pages/PPolicy';
+import Tnc from './pages/footer_pages/tnc';
 const App = () =>{
   const [loading, setLoading] = useState(true);
   useEffect(() => {
@@ -36,11 +38,13 @@ const App = () =>{
   return (
     
     <Router>
-    <NavBar/>
+    {/* <NavBar/> */}
+    <Tnc/>
+    <PPolicy/>
     <div className="">
      <Routes>
        <Route path='/' element={<Home/>}/>
-       <Route path='/' element={<Home/>}/>
+       <Route path='/home' element={<Home/>}/>
        <Route path='/ride' element={<Ride/>}/>
        <Route path='/operator' element={<Operator/>}/>
        <Route path='/about' element={<About/>}/>

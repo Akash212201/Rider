@@ -1,9 +1,3 @@
-.loader {
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
 #group-3 {
     animation: swing 1.5s infinite ease-in-out;
 }

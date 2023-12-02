@@ -45,7 +45,8 @@ const Footer = () => {
                                 <li key={index} className="Footer_list">
                                     <span className="columnTitle u-h6">{item.title}</span>
                                     <ul>
-                                        {item.items.map((subItem, subIndex) => (
+                                        {
+                                        item.items.map((subItem, subIndex) => (
                                             <li key={subIndex} className="FooterItem">
                                                 <a className="footerLink" href={subItem.path}>{subItem.item1}</a>
                                             </li>

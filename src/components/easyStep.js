@@ -26,8 +26,8 @@ const EasyStep = () => {
                 
                 {steps.map((step, index) => (
                 <div key={index} className="easy_content">
-                  <span>{step.number}</span>
-                  <h2>{step.title}</h2>
+                  <span className="text-[#808080] text-[20px]">{step.number}</span>
+                  <h2 className="text-4xl my-[5px]">{step.title}</h2>
                   <p>{step.desc}</p>
                 </div>
                 ))}

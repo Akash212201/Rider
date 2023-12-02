@@ -2,7 +2,7 @@ import './style/loading.css';
 
 const Loading = () => {
     return (
-        <div class="loader">
+        <div class="h-screen flex justify-center items-center">
             <svg width="260" height="76" viewBox="0 0 260 76" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g id="car">
                     <g id="group-3">

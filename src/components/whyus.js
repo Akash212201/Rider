@@ -23,7 +23,7 @@ const WhyUs = () => {
 
     ];
     return (
-        <div className="py-10 px-10 text-center k">
+        <div className="py-10 px-10 text-center bg-[#00000080] text-white">
             <div className="mb-10 ">
                 <h1 className="text-4xl">Why choose us?</h1>
                 <p className="text-xl">At RickshawRide, our expert staff offer lots of benefits and advantages to our clients.

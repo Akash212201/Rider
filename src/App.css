@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.container{
+.containerr{
   padding-inline: 10vw;
 }
 a{
@@ -17,10 +17,6 @@ video{
 .Lsearch img{
   width: 20px;
   height: 20px;
-}
-.k{
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 @media(max-width:776px){
   .kk{

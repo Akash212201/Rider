@@ -30,7 +30,7 @@ const NavBar =()=> {
     }
   return (
     <>
-    <div className="navbar container">
+    <div className="navbar containerr">
         <div className="logo">
             <img src={logo} alt="" />
         </div>
